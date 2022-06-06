@@ -1,3 +1,7 @@
+'''
+File to upload random data to test the functoionality. the real background program is ECG_Background... and it can only be exuted on the RPI.
+'''
+
 import random,time
 HB= 0
 SpO2=0
