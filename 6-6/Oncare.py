@@ -14,13 +14,7 @@ processThread = threading.Thread(target=thread_second)
 processThread.start()
 
 config = {
-    "apiKey": "AIzaSyDxrYU6VgX2_aTRFpTkEXVo85BrBY57XTY",
-  "authDomain": "spry-autumn-250814.firebaseapp.com",
-  "databaseURL": "https://spry-autumn-250814-default-rtdb.firebaseio.com",
-  "projectId": "spry-autumn-250814",
-  "storageBucket": "spry-autumn-250814.appspot.com",
-  "messagingSenderId": "69638460722",
-  "appId": "1:69638460722:web:c75b2b5a01e8c18d60b32b"
+#place your config from your firebase project console
 }
   
 Valid_user = False
