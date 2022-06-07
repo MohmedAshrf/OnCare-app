@@ -69,7 +69,7 @@ db = firebase.database()
 ```
 ### 2. Firestore initialization
 ```
-cred = credentials.Certificate("spry-autumn-250814-firebase-adminsdk-wqkqc-f98064d5a3.json")
+cred = credentials.Certificate("<yourcertificate>.json")
 firebase_admin.initialize_app(cred)
 fire = firestore.client()
 ```
